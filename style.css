@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: gray;
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 60, 255),
+    rgb(0, 255, 234)
+  );
+  padding: 25px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+nav {
+  padding: 10px;
+  background-color: gray;
+  display: block;
+}
+nav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  background-color: #00a4f4;
+  color: whitesmoke;
+}
+.main-section {
+  padding: 50px;
+}
+.main-section h1 {
+  font-size: 50px;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main-section p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+}
+.button {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: teal;
+}
+.button:hover {
+  background-color: teal;
+  color: whitesmoke;
+}
+.pricing-section figure {
+  box-shadow: 0 0 10px black;
+  width: 300px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 20px;
+}
+.pricing-section figure img {
+  width: 100%;
+  height: 200px;
+}
+.pricing-section figcaption {
+  font-size: 20px;
+  font-weight: 900;
+}
+.pricing-section figure p {
+  font-size: 15px;
+}
+.pricing-section h1 {
+  font-size: 50px;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.pricing-section p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+}
+footer {
+  background-color: gray;
+  color: whitesmoke;
+  padding: 10px;
+  margin-top: 20px;
+}
